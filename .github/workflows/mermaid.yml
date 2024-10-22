@@ -24,5 +24,5 @@ jobs:
 
       - name: Generate Mermaid diagrams
         run: |
-        echo "graph TD; A-->B; A-->C; B-->D; C-->D;" > test.mmd
-        mmdc -i test.mmd -o test.svg 
+          echo "graph TD; A-->B; A-->C; B-->D; C-->D;" > test.mmd
+          mmdc -i test.mmd -o test.svg 
